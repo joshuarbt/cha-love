@@ -78,9 +78,7 @@ function verifierVictoire() {
     // Si toutes les fleurs sont placées
     if (fleursPlacees.length === fleurs.length) {
         setTimeout(() => {
-            alert("Bravo ! Le bouquet est prêt !");
-            // Redirection vers la page suivante
-            window.location.href = "page-suivante.html"; 
-        }, 300);
+            window.location.href = "fin.html"; 
+        }, 1500);
     }
 }

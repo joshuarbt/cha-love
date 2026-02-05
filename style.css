@@ -56,7 +56,6 @@ h1 {
 
 .container {
     position: relative;
-    /* Sert de référence */
 }
 
 button {
@@ -74,12 +73,12 @@ button {
 }
 
 #btn-oui {
-    background-color: #4CAF50;
+    background-color: #F5658E;
     color: white;
 }
 
 #btn-non {
-    background-color: #f44336;
+    background-color: #7C273F;
     color: white;
     position: absolute;
     /* Indispensable pour le déplacement libre */
