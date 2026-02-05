@@ -1,0 +1,86 @@
+
+
+body {
+    font-family: cafe-romantique, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #F4BCCC;
+    /* Empêche les barres de défilement si le bouton va trop loin */
+}
+.chargement {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F4BCCC;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    pointer-events: all; 
+
+}
+
+.disparition {
+    opacity: 0;
+    pointer-events: none; 
+}
+
+.main {
+    background-color: #FBDEE7;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-weight: 400;
+
+}
+
+.container {
+    position: relative;
+    /* Sert de référence */
+}
+
+button {
+    padding: 15px 30px;
+    font-family: cafe-romantique, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: all 0.2s ease;
+    /* Animation fluide */
+}
+
+#btn-oui {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn-non {
+    background-color: #f44336;
+    color: white;
+    position: absolute;
+    /* Indispensable pour le déplacement libre */
+}

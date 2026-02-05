@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    overflow: hidden; /* Empêche les barres de défilement */
+}
+
+/* La zone cible (le futur bouquet) */
+#zone-bouquet {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px dashed #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrage parfait */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    z-index: 1;
+    transition: background-color 0.3s;
+}
+
+/* Changement de couleur quand une fleur est dedans */
+#zone-bouquet.active {
+    background-color: rgba(144, 238, 144, 0.4);
+    border-color: green;
+}
+
+/* Les fleurs (objets à déplacer) */
+.fleur {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: grab;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    user-select: none; /* Empêche de sélectionner le texte */
+}
+
+.fleur:hover {
+    transform: scale(1.1);
+}
+
+.fleur:active {
+    cursor: grabbing;
+    transform: scale(1.1);
+}
+
+/* Positions et couleurs initiales */
+.f1 { background: #ff6b6b; top: 10%; left: 10%; }
+.f2 { background: #feca57; top: 10%; right: 10%; }
+.f3 { background: #ff9ff3; top: 80%; left: 10%; }
+.f4 { background: #54a0ff; top: 80%; right: 10%; }
