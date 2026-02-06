@@ -32,6 +32,6 @@ gsap.to(sequence, {
         const numeroFormate = sequence.frame.toString().padStart(3, '0');
         
         // Vérifie toujours ton chemin ici ("./seq/" ou "./src/seq/")
-        img.src = `./seq/lettre-${numeroFormate}.jpg`; 
+        img.src = `./seq-txt/lettre-${numeroFormate}.jpg`; 
     }
 });
