@@ -19,7 +19,7 @@ body {
     height: 350px;
     /* background-color: rgba(255, 255, 255, 0.5);
     border: 3px dashed #333; */
-    background-image: url(bouquet.svg);
+    background-image: url(/src/bouquet.svg);
     background-size: cover;
     background-color: transparent;
     /* border-radius: 50%; */
@@ -72,7 +72,7 @@ body {
 /* Positions et couleurs initiales */
 .f1 {
     /* background: #ff6b6b; */
-    background-image: url(fleur-1.svg);
+    background-image: url(/src/fleur-1.svg);
     background-size: cover;
     background-color: transparent;
     width: 130px;
@@ -83,7 +83,7 @@ body {
 
 .f2 {
     /* background: #feca57; */
-    background-image: url(fleur-2.svg);
+    background-image: url(/src/fleur-2.svg);
     background-size: cover;
     background-color: transparent;
     width: 140px;
@@ -94,7 +94,7 @@ body {
 
 .f3 {
     /* background: #ff9ff3; */
-    background-image: url(fleur-3.svg);
+    background-image: url(/src/fleur-3.svg);
     background-size: cover;
     background-color: transparent;
     width: 80px;
@@ -105,7 +105,7 @@ body {
 
 .f4 {
     /* background: #54a0ff; */
-    background-image: url(fleur-4.svg);
+    background-image: url(/src/fleur-4.svg);
     background-size: cover;
     background-color: transparent;
     width: 80px;
