@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 // ✅ CORRECTION 2 : Syntaxe src correcte pour tes 103 images (000 à 102)
 gsap.to("#img-sequence", {
     // GSAP va passer automatiquement de lettre-000.jpg à lettre-102.jpg
-    src: ".../seq/lettre-[000:102].jpg",
+    src: "./src/seq/lettre-[000:102].jpg",
     
     scrollTrigger: {
         trigger: ".section-animation",
