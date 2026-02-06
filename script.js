@@ -33,6 +33,6 @@ window.addEventListener('load', () => {
         // On ajoute la classe CSS qui va déclencher la disparition
         chargement.classList.add('disparition');
 
-    }, 5000); // 3000 millisecondes = 3 secondes d'attente
+    }, 5000); // 1000 millisecondes = 1 secondes
 
 });
