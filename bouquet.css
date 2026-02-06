@@ -38,8 +38,8 @@ body {
 
 /* Changement de couleur quand une fleur est dedans */
 #zone-bouquet.active {
-    background-color: rgba(144, 238, 144, 0.4);
-    border-color: green;
+    background-color: #FBDEE7;
+    border-color: #FBDEE7;
 }
 
 /* Les fleurs (objets à déplacer) */
