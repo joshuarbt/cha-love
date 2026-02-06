@@ -1,35 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: cafe-romantique, sans-serif;
+    font-family: 'cafe-romantique', sans-serif;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    margin: 0;
-    /* overflow: hidden; */
-    background-color: #F4BCCC;
-    /* Empêche les barres de défilement si le bouton va trop loin */
+    overflow-x: hidden; /* Juste pour éviter les débordements latéraux */
 }
 
+/* Section d'animation : pleine hauteur d'écran */
 .section-animation {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
 }
 
+/* L'IMAGE EN PLEIN ÉCRAN */
 #img-sequence {
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    width: 100vw;  /* Largeur = largeur écran */
+    height: 100vh; /* Hauteur = hauteur écran */
+    object-fit: cover; /* Remplit parfaitement sans déformation */
+    display: block;
 }
 
+/* Espace pour scroller (4x la hauteur d'écran) */
 .spacer {
-    height: 400vh; /* 4x la hauteur d'écran pour scroller longtemps */
+    height: 400vh;
     background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
 }
