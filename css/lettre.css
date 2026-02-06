@@ -12,3 +12,24 @@ body {
     background-color: #F4BCCC;
     /* Empêche les barres de défilement si le bouton va trop loin */
 }
+
+.section-animation {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+#img-sequence {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.spacer {
+    height: 400vh; /* 4x la hauteur d'écran pour scroller longtemps */
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
