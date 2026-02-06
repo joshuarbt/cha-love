@@ -25,3 +25,8 @@ body {
     display: block;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+
