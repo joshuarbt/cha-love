@@ -78,7 +78,7 @@ function verifierVictoire() {
     // Si toutes les fleurs sont placées
     if (fleursPlacees.length === fleurs.length) {
         setTimeout(() => {
-            window.location.href = "fin.html"; 
+            window.location.href = "/html/bouquet-lettre.html"; 
         }, 1500);
     }
 }
