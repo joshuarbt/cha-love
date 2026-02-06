@@ -25,8 +25,3 @@ body {
     display: block;
 }
 
-/* Espace pour scroller (4x la hauteur d'écran) */
-.spacer {
-    height: 400vh;
-    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-}
